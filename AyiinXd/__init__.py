@@ -119,7 +119,7 @@ async def update_restart_msg(chat_id, msg_id):
     from config import var
 
     message = (
-        f"**Ayiin-UserBot v`{var.BOT_VER}` is back up and running!**\n\n"
+        f"**Yxzn-UserBot v`{var.BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
