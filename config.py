@@ -14,8 +14,8 @@ DEVS = [
     997461844, # Punya Ayiin
     844432220, # Risman
     883761960, # Ari
-    2130526178, # Alfa
-    1663258664, # Kyy
+    1222631966, # Yxzn
+    1765202724, # Seo
 ]
 
 
@@ -50,7 +50,7 @@ GCAST_BLACKLIST = [
     -1001704645461,  # Jamet No Support
     -1001662510083,  # MutualanDestra
     -1001347414136,  # ArunaMutualan
-    -1001572486389,  # PluviaMusicGroup
+    -1001286943203,  # Mutualanstaryy
     -1001608701614,  # UputtSupport
     -1001812143750,  # Kynan Support
 ]
@@ -98,8 +98,8 @@ class Config(object):
     SUDO_HANDLER = getenv("SUDO_HANDLER", r"$")
 
     # Support
-    GROUP = getenv("GROUP", "AyiinChats")
-    CHANNEL = getenv("CHANNEL", "AyiinChannel")
+    GROUP = getenv("GROUP", "Mutualanstaryy")
+    CHANNEL = getenv("CHANNEL", "Storeyxzn")
 
     # Heroku Credentials for updater.
     HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -113,7 +113,7 @@ class Config(object):
     GITHUB_ACCESS_TOKEN = getenv("GITHUB_ACCESS_TOKEN", None)
 
     # Custom (forked) repo URL for updater.
-    UPSTREAM_REPO_URL = getenv("UPSTREAM_REPO_URL", "https://github.com/AyiinXd/Ayiin-Userbot.git")
+    UPSTREAM_REPO_URL = getenv("UPSTREAM_REPO_URL", "https://github.com/yusniii/Yxzn-Userbot.git")
 
     # Custom Name Sticker Pack
     S_PACK_NAME = getenv("S_PACK_NAME", None)
@@ -144,10 +144,10 @@ class Config(object):
     # untuk perintah teks costum .alive
     ALIVE_TEKS_CUSTOM = getenv(
         "ALIVE_TEKS_CUSTOM",
-        "Hey, Saya pengguna Ayiin-Userbot")
+        "Hey, Saya pengguna Yxzn-Userbot")
 
     # Default .alive name
-    ALIVE_NAME = getenv("ALIVE_NAME", "AyiinXd")
+    ALIVE_NAME = getenv("ALIVE_NAME", "rchoihyunwook")
 
     # Custom Emoji Alive
     ALIVE_EMOJI = getenv("ALIVE_EMOJI", "✧")
@@ -176,10 +176,10 @@ class Config(object):
 
     # Default .alive logo
     ALIVE_LOGO = (getenv("ALIVE_LOGO")
-                or "https://telegra.ph/file/940f21be8d8863b6c70ae.jpg")
+                or "https://telegra.ph/file/f9844a0575ae5a77fa1de.jpg")
 
     INLINE_PIC = (getenv("INLINE_PIC")
-                or "https://telegra.ph/file/9f8e73d387f25b7f27ce5.jpg")
+                or "https://telegra.ph/file/52eebf2b08e54e579c55e.jpg")
 
     # Picture For VCPLUGIN
     PLAY_PIC = (getenv("PLAY_PIC")
