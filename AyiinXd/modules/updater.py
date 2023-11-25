@@ -91,7 +91,7 @@ async def deploy(xx, repo, ups_rem, ac_br, txt):
                 )
             await eor(
                 xx,
-                "**✧ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ✧** `Berhasil Di Update Userbot bisa di gunakan kembali.`"
+                "**✧ ʏxᴢɴ-ᴜsᴇʀʙᴏᴛ ✧** `Berhasil Di Update Userbot bisa di gunakan kembali.`"
             )
 
         else:
@@ -117,7 +117,7 @@ async def update(xx, repo, ups_rem, ac_br):
     await install_requirements()
     await eor(
         xx,
-        "**✧ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ✧** `Berhasil Di Update Userbot bisa di gunakan kembali.`"
+        "**✧ ʏxᴢɴ-ᴜsᴇʀʙᴏᴛ ✧** `Berhasil Di Update Userbot bisa di gunakan kembali.`"
     )
 
     del_var("restartstatus")
@@ -181,7 +181,7 @@ async def upstream(event):
 
     changelog = await gen_chlog(repo, f"HEAD..upstream/{ac_br}")
     if conf == "deploy":
-        await xx.edit("**[•]** - Proses Update\n✧ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ✧ : `Menginstall Pembaruan...`")
+        await xx.edit("**[•]** - Proses Update\n✧ʏxᴢɴ-ᴜsᴇʀʙᴏᴛ ✧ : `Menginstall Pembaruan...`")
         await deploy(xx, repo, ups_rem, ac_br, txt)
         return
 
@@ -193,7 +193,7 @@ async def upstream(event):
         await print_changelogs(xx, ac_br, changelog)
         await xx.delete()
         return await event.respond(
-            f"**Ketik** `{cmd}update deploy` **Untuk Mengupdate ✧ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ✧**"
+            f"**Ketik** `{cmd}update deploy` **Untuk Mengupdate ✧ ʏxᴢɴ-ᴜsᴇʀʙᴏᴛ ✧**"
         )
 
     if force_update:
