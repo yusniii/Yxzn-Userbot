@@ -46,8 +46,8 @@ async def autopilot():
     try:
         r = await Ayiin(
             CreateChannelRequest(
-                title="Aʏɪɪɴ-Usᴇʀʙᴏᴛ Lᴏɢs",
-                about="» Group log Created by: Ayiin-Userbot\n\n» Support : @AyiinChats\n» Support: @AyiinChannel",
+                title="Yxᴢɴ-Usᴇʀʙᴏᴛ Lᴏɢs",
+                about="» Group log Created by: Yxzn-Userbot\n\n» Support : @Storeyxzn\n» Support: @rchoihyunwook",
                 megagroup=True,
             ),
         )
@@ -65,7 +65,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/b88d710cee9a6d6783abc.jpg", "photoyins.jpg"
+            "https://telegra.ph/file/f9844a0575ae5a77fa1de.jpg", "photoyins.jpg"
         )
         ll = await Ayiin.upload_file(photo)
         try:
@@ -125,7 +125,7 @@ async def autobot():
                 sys.exit(1)
         filogo = random.choice(
             [
-                "https://telegra.ph/file/2127175807fe36f6a40f1.jpg",
+                "https://telegra.ph/file/f9844a0575ae5a77fa1de.jpg",
                 "AyiinXd/resources/logo.jpg",
             ]
         )
@@ -165,7 +165,7 @@ async def autobot():
                 await Ayiin.send_message(bf, f"@{username}")
                 await asyncio.sleep(1)
                 await Ayiin.send_message(
-                    bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @AyiinChannel ✨"
+                    bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @StoreYxzn ✨"
                 )
                 await Ayiin.send_message(
                     var.BOTLOG_CHATID,
@@ -179,7 +179,7 @@ async def autobot():
                 except BaseException:
                     pass
                 try:
-                    await Ayiin(EditAdminRequest(var.BOTLOG_CHATID, username, new_rights, "Assɪsᴛᴀɴᴛ Aʏɪɪɴ"))
+                    await Ayiin(EditAdminRequest(var.BOTLOG_CHATID, username, new_rights, "Assɪsᴛᴀɴᴛ Yxᴢɴ"))
                     await asyncio.sleep(3)
                 except BaseException:
                     pass
@@ -220,7 +220,7 @@ async def autobot():
             await Ayiin.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await Ayiin.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @AyiinChannel ✨"
+                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @StoreYxzn ✨"
             )
             await Ayiin.send_message(
                 var.BOTLOG_CHATID,
@@ -235,7 +235,7 @@ async def autobot():
             except BaseException:
                 pass
             try:
-                await Ayiin(EditAdminRequest(var.BOTLOG_CHATID, username, new_rights, "Assɪsᴛᴀɴᴛ Aʏɪɪɴ"))
+                await Ayiin(EditAdminRequest(var.BOTLOG_CHATID, username, new_rights, "Assɪsᴛᴀɴᴛ Yxᴢɴ"))
                 await asyncio.sleep(3)
             except BaseException:
                 pass
