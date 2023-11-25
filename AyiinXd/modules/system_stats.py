@@ -180,17 +180,17 @@ async def amireallyalive(alive):
     await alive.edit("😈")
     await asyncio.sleep(3)
     output = (
-        f"**Tʜᴇ [Aʏɪɪɴ-Usᴇʀʙᴏᴛ](https://github.com/AyiinXd/Ayiin-Userbot)**\n\n"
+        f"**Tʜᴇ [ʏxᴢɴ-ᴜsᴇʀʙᴏᴛ](https://github.com/yusniii/Yxzn-Userbot)**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
-        f"{emoji} **Aʏɪɪɴ Vᴇʀsɪᴏɴ :** `{var.BOT_VER}`\n"
+        f"{emoji} **ʏxᴢɴ ᴠᴇʀsɪᴏɴ :** `{var.BOT_VER}`\n"
         f"{emoji} **Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         f"{emoji} **Dᴇᴘʟᴏʏ Oɴ :** {HOSTED_ON}\n"
         f"{emoji} **Mᴏᴅᴜʟᴇs :** `{len(modules)} Modules` \n"
         f"{emoji} **Oᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id}) \n"
         f"{emoji} **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{python_version()}` \n"
         f"{emoji} **PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `Unlimited` \n"
-        f"{emoji} **Pʏ-Aʏɪɪɴ Vᴇʀsɪᴏɴ :** `0.4.6`\n"
+        f"{emoji} **ᴘʏ-ʏxᴢɴ Vᴇʀsɪᴏɴ :** `0.4.6`\n"
         f"{emoji} **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
     )
