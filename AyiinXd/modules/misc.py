@@ -50,11 +50,11 @@ async def sleepybot(time):
 
 @ayiin_cmd(pattern="restart$", allow_sudo=False)
 async def restart_bot(event):
-    await eor(event, "**᯽ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ᯽ Berhasil di Restart**")
+    await eor(event, "**᯽ 𝗬𝗫𝗭𝗡-𝗨𝗦𝗘𝗥𝗕𝗢𝗧 ᯽ Berhasil di Restart**")
     if var.BOTLOG_CHATID:
         await event.client.send_message(
             var.BOTLOG_CHATID,
-            "#RESTART \n**᯽ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ᯽ Berhasil Di Restart**"
+            "#RESTART \n**᯽ 𝗬𝗫𝗭𝗡-𝗨𝗦𝗘𝗥𝗕𝗢𝗧 ᯽ Berhasil Di Restart**"
         )
     args = [sys.executable, "-m", "AyiinXd"]
     execle(sys.executable, *args, environ)
