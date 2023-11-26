@@ -106,6 +106,6 @@ Follow Channel [@AyiinChannel](https://t.me/AyiinChannel) untuk info Update bot 
 -  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/AyiinXd/Ayiin-Userbot/blob/Ayiin-Userbot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/yusniii/Yxzn-Userbot/blob/Ayiin-Userbot/LICENSE) - Version 1.d, February 2020
 
 
