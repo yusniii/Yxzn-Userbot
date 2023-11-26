@@ -52,8 +52,8 @@ async def inline_handler(event):
     elif query.startswith("repo"):
         result = builder.article(
             title="Repository",
-            description="Repository Ayiin - Userbot",
-            url="https://t.me/AyiinChats",
+            description="Repository Yxzn - Userbot",
+            url="https://t.me/storeyxzn",
             thumb=InputWebDocument(
                 var.INLINE_PIC,
                 0,
