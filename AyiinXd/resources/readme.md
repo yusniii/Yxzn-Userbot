@@ -1,2 +1,2 @@
 # Extra Resources for Ayiin-Userbot
-Repository [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
+Repository [Yxzn-Userbot](https://github.com/yusniii/Yxzn-Userbot)
