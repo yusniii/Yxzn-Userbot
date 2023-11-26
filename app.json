@@ -3,7 +3,7 @@
   "description": "[Yxzn-Userbot] Userbot Hanya Untuk Bersenang - Senang",
   "logo": "https://telegra.ph/file/f9844a0575ae5a77fa1de.jpg",
   "keywords": ["telegram", "userbot", "Yxzn-Userbot", "modular", "python"],
-  "repository": "https://github.com/yusniii/yxzn-Userbot",
+  "repository": "https://github.com/yusniii/Yxzn-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
