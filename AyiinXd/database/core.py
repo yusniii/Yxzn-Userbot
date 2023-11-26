@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/yusniii/Yxzn-Userbot/blob/main/LICENSE/>.
 #
-# FROM Ayiin-Userbot <https://github.com/yusniii/Yxzn-Userbot>
+# FROM Yxzn-Userbot <https://github.com/yusniii/Yxzn-Userbot>
 # t.me/mutualanstaryy & t.me/storeyxzn
 
 
