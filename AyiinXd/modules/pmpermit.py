@@ -35,14 +35,14 @@ from . import DEVS, cmd, var
 DEF_UNAPPROVED_MSG =  (
     """
 ╔═════════════════════╗
-│ ㅤ 𖣘𝚂𝙴𝙻𝙰𝙼𝙰𝚃 𝙳𝙰𝚃𝙰𝙽𝙶 𝚃𝙾𝙳𖣘ㅤ  ㅤ   
+│ ㅤ Selamat Datang Di Roomchat Majikan Sayaㅤ  ㅤ   
 ╚═════════════════════╝
-⍟ 𝙹𝙰𝙽𝙶𝙰𝙽 𝚂𝙿𝙰𝙼 𝙲𝙷𝙰𝚃 𝙼𝙰𝙹𝙸𝙺𝙰𝙽 𝙶𝚄𝙰 𝙺𝙴𝙽𝚃𝙾𝙳
+⍟ 𝙹𝙰𝙽𝙶𝙰𝙽 𝚂𝙿𝙰𝙼 𝙲𝙷𝙰𝚃 𝙼𝙰𝙹𝙸𝙺𝙰𝙽 𝙶𝚄𝙰 
 ⍟ 𝙶𝚄𝙰 𝙰𝙺𝙰𝙽 𝙾𝚃𝙾𝙼𝙰𝚃𝙸𝚂 𝙱𝙻𝙾𝙺𝙸𝚁 𝙺𝙰𝙻𝙾 𝙻𝚄 𝚂𝙿𝙰𝙼
 ⍟ 𝙹𝙰𝙳𝙸 𝚃𝚄𝙽𝙶𝙶𝚄 𝚂𝙰𝙼𝙿𝙰𝙸 𝙼𝙰𝙹𝙸𝙺𝙰𝙽 𝙶𝚄𝙰 𝙽𝙴𝚁𝙸𝙼𝙰 𝙿𝙴𝚂𝙰𝙽 𝙻𝚄
 ╔═════════════════════╗
 │ㅤㅤ𖣘 𝙿𝙴𝚂𝙰𝙽 𝙾𝚃𝙾𝙼𝙰𝚃𝙸𝚂 𖣘ㅤㅤ      
-│ㅤㅤ𖣘 𝙰𝚈𝙸𝙸𝙽 - 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𖣘ㅤㅤ   
+│ㅤㅤ𖣘 YXZN - USERBOT  𖣘ㅤㅤ   
 ╚═════════════════════╝
 """
 )
@@ -77,10 +77,10 @@ async def permitpm(event):
                 if event.chat_id not in apprv:
                     try:
                         approve(event.chat_id)
-                        await Ayiin.send_message(var.BOTLOG_CHATID, f"**#AUTO_APPROVED_DEVELOPER**\n\n👑 **Developer:** [{sender.first_name}](tg://user?id={sender.id})\n💬 `Developer Ayiin-Userbot Telah Mengirimi Anda Pesan...`")
+                        await Ayiin.send_message(var.BOTLOG_CHATID, f"**#AUTO_APPROVED_DEVELOPER**\n\n👑 **Developer:** [{sender.first_name}](tg://user?id={sender.id})\n💬 `Developer Yxzn-Userbot Telah Mengirimi Anda Pesan...`")
                         await Ayiin.send_message(
                             event.chat_id,
-                            f"**Menerima Pesan!!!**\n**Terdeteksi [{sender.first_name}](tg://user?id={sender.id}) Adalah Developer Ayiin-Userbot**"
+                            f"**Menerima Pesan!!!**\n**Terdeteksi [{sender.first_name}](tg://user?id={sender.id}) Adalah Developer Yxzn-Userbot**"
                         )
                         return
                     except BaseException as e:
@@ -131,7 +131,7 @@ async def permitpm(event):
                     name0 = str(name.first_name)
                     await event.client.send_message(
                         var.BOTLOG_CHATID,
-                        f"**[{name0}](tg://user?id={event.chat_id}) Telah diblokir karna melakukan spam ke tuan saya**"
+                        f"**[{name0}](tg://user?id={event.chat_id}) Telah diblokir karna melakukan spam ke majikan saya**"
                     )
 
 
@@ -278,7 +278,7 @@ async def disapprovepm(disapprvpm):
             disapprove(aname)
             await eod(
                 disapprvpm,
-                f" **Maaf Ya** [{name0}](tg://user?id={aname}) **Pesan Anda Telah Ditolak, Mohon Untuk Tidak Melakukan Spam Ke Tuan Saya**",
+                f" **Maaf Ya** [{name0}](tg://user?id={aname}) **Pesan Anda Telah Ditolak, Mohon Untuk Tidak Melakukan Spam Ke Majikan Saya**",
                 time=8
             )
 
