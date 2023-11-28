@@ -1016,7 +1016,7 @@ async def bot_start(event):
                         \n\n**Saya adalah {my_first}** \
                         \n**Anda dapat menghubungi [{owner.first_name}](tg://user?id={owner.id}) dari sini.**\
                         \n**Jangan melakukan spam atau anda akan di Banned**\
-                        \n\n**Powered by** [UserBot](https://github.com/AyiinXd/Ayiin-Userbot)"
+                        \n\n**Powered by** [UserBot](https://github.com/yusniii/Yxzn-Userbot)"
         buttons = [
             (
                 Button.url("ɢʀᴏᴜᴘ", f"https://t.me/{var.GROUP}"),
