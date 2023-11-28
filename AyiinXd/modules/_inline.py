@@ -26,8 +26,8 @@ logoyins = random.choice(
     [
         "https://telegra.ph/file/59246a6c971bb4fb037c5.jpg",
         "https://telegra.ph/file/52eebf2b08e54e579c55e.jpg",
-        "https://telegra.ph/file/52eebf2b08e54e579c55e.jpg",
-        "https://telegra.ph/file/52eebf2b08e54e579c55e.jpg",
+        "https://telegra.ph/file/b8f7884d2e197518dc04f.jpg",
+        "https://telegra.ph/file/8a3521175ad77aa872367.jpg",
     ]
 )
 
