@@ -186,7 +186,7 @@ async def upstream(event):
         return
 
     if changelog == "" and not force_update:
-        await eod(xx, "**✧ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ✧ Sudah Versi Terbaru**")
+        await eod(xx, "**✧ ʏxᴢɴ-ᴜsᴇʀʙᴏᴛ ✧ Sudah Versi Terbaru**")
         return repo.__del__()
 
     if conf == "" and not force_update:
@@ -219,9 +219,9 @@ CMD_HELP.update(
     {
         "update": f"**Plugin : **`update`\
         \n\n  »  **Perintah :** `{cmd}update`\
-        \n  »  **Kegunaan : **Untuk Melihat Pembaruan Terbaru Ayiin-Userbot.\
+        \n  »  **Kegunaan : **Untuk Melihat Pembaruan Terbaru Yxzn-Userbot.\
         \n\n  »  **Perintah :** `{cmd}update deploy`\
-        \n  »  **Kegunaan : **Untuk MengUpdate Fitur Terbaru Dari Ayiin-Userbot.\
+        \n  »  **Kegunaan : **Untuk MengUpdate Fitur Terbaru Dari Yxzn-Userbot.\
     "
     }
 )
