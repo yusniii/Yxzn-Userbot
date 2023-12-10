@@ -155,7 +155,7 @@ async def apk(e):
         )
         app_details += ("\n<b>Features :</b> <a href='" +
                         app_link + "'>View in Play Store</a>")
-        app_details += "\n\n===> Support @AyiinChannel <==="
+        app_details += "\n\n===> Support @storeyxzn<==="
         await xx.edit(app_details, link_preview=True, parse_mode="HTML")
     except IndexError:
         await eor(
