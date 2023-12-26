@@ -22,7 +22,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.contacts import UnblockRequest
 
 from config import var
-from AyiinXd import Ayiin, CMD_HELP, bot, ch
+from AyiinXd import Ayiin, CMD_HELP, bot
 from AyiinXd.ayiin import ayiin_cmd, eod, eor
 
 

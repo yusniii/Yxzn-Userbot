@@ -111,8 +111,8 @@ repo = Repo()
 branch = repo.active_branch.name
 
 
-ch = str(b64decode("QEF5aWluQ2hhbm5lbA=="))[2:15]
-gc = str(b64decode("QEF5aWluQ2hhdHM="))[2:13]
+#ch = str(b64decode("QEF5aWluQ2hhbm5lbA=="))[2:15]
+#gc = str(b64decode("QEF5aWluQ2hhdHM="))[2:13]
 
 
 async def update_restart_msg(chat_id, msg_id):
