@@ -88,9 +88,9 @@ async def autobot():
         await asyncio.sleep(15)
         await Ayiin.send_message(
             var.BOTLOG_CHATID,
-            "**MOHON TUNGGU SEBENTAR, SEDANG MEMBUAT ASSISTANT BOT ANDA DI @BotFather**"
+            "**TUNGGU DEK , LAGI MEMBUAT ASSISTANT BOT MU DI @BotFather**"
         )
-        LOGS.info("MOHON TUNGGU SEBENTAR, SEDANG MEMBUAT ASSISTANT BOT ANDA.")
+        LOGS.info("TUNGGU LAH, LAGI BIKIN ASSISTANT BOT MU.")
         who = await Ayiin.get_me()
         name = f"{who.first_name} Assistant Bot"
         if who.username:
