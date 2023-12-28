@@ -293,10 +293,10 @@ Tekan [Sticker Pack](t.me/addstickers/{packname}) Untuk Melihat Sticker Pack**""
         await eor(
             args, 
             f"""
-**STICKER LU UDAH JADI TOD**
+**STICKER LO UDAH JADI ANJ**
 
 **     ╭✠━━━━❖━━━━✠╮**
-**            [AMBIL TOD](t.me/addstickers/{packname})**
+**            [AMBIL DISINI](t.me/addstickers/{packname})**
 **     ╰✠━━━━❖━━━━✠╯**
 
 **Untuk Menggunakan Stickers**
