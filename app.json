@@ -1,21 +1,21 @@
 {
   "name": "⋆ 𝐘𝐗𝐙𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 ⋆",
-  "description": "[Yxzn-Userbot] Userbot Hanya Untuk Bersenang - Senang",
+  "description": "[Yxzn-Userbot] Gunakan userbot dengna resiko mu sendiri",
   "logo": "https://telegra.ph/file/f9844a0575ae5a77fa1de.jpg",
   "keywords": ["telegram", "userbot", "Yxzn-Userbot", "modular", "python"],
   "repository": "https://github.com/yusniii/Yxzn-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di Grup » https://t.me/AyiinChats » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Dapatkan API KEY di web my.telegram.org Masukan yg APP ID Telegram",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di Grup » https://t.me/AyiinChats » Lalu ketik /get api atau di web my.telegram.org",
+      "description": "Dapatkan API Hash di web my.telegram.org",
       "required": true
     },
     "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » https://t.me/AyiinChats » Lalu ketik /get string",
+      "description": "Dapatkan String Session di bot string",
       "required": true
     },
     "HEROKU_APP_NAME": {
