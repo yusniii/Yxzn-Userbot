@@ -103,8 +103,8 @@ async def psu(event):
     help_string += "**Iɴғᴏʀᴍᴀsɪ Mᴇsɪɴ**\n"
     help_string += f"**Pʏᴛʜᴏɴ :** `{sys.version}`\n"
     help_string += f"**Tᴇʟᴇᴛʜᴏɴ :**`{__version__}`\n"
-    help_string += f"**Pʏ-Aʏɪɪɴ :** `0.4.6`\n"
-    help_string += f"**Aʏɪɪɴ-Vᴇʀsɪᴏɴ :** `{var.BOT_VER} [{HOSTED_ON}]`"
+    help_string += f"**Pʏ-ʏxᴢɴ :** `0.4.6`\n"
+    help_string += f"**ʏxᴢɴ-Vᴇʀsɪᴏɴ :** `{var.BOT_VER} [{HOSTED_ON}]`"
     await edit_or_reply(event, help_string)
 
 
