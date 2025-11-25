@@ -83,7 +83,6 @@ wand
 wget
 wikipedia
 wordcloud
-yins-music==0.1.0
 youtube-dl
 youtube-search
 youtube-search-python==1.4.9
