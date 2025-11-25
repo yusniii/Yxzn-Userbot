@@ -15,6 +15,10 @@ emoji==1.7.0
 faker
 ffmpeg-python
 fontTools
+tgcalls
+av
+fipper
+opencv-python-headless
 geopy
 git+https://github.com/1danish-00/carbon-now-sh-api-wrapper.git
 git+https://github.com/buddhhu/img2html.git
