@@ -7,48 +7,44 @@
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "API ID dari https://my.telegram.org",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di web my.telegram.org",
+      "description": "API Hash dari https://my.telegram.org",
       "required": true
     },
     "STRING_SESSION": {
-      "description": "Dapatkan String Session di bot string",
+      "description": "String session userbot",
       "required": true
     },
     "HEROKU_APP_NAME": {
-      "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
+      "description": "Nama app Heroku",
       "required": true
     },
     "HEROKU_API_KEY": {
-      "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
+      "description": "API key Heroku",
       "required": true
     },
     "OPENAI_API_KEY": {
-      "description": "Ambil key OPENAI_API_KEY mu disini » https://platform.openai.com/account/api-keys",
+      "description": "OpenAI API Key (opsional)",
       "required": false
     }
   },
+
   "addons": [
     {
-    "plan": "heroku-postgresql",
-      "options": {
-        "version": "16"
-      }
+      "plan": "heroku-postgresql:essential-0"
     }
   ],
+
   "buildpacks": [
-    {
-      "url": "heroku/python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }
+    { "url": "heroku/python" },
+    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" }
   ],
+
   "formation": {
-    "ayiin": {
+    "worker": {
       "quantity": 1,
       "size": "eco"
     }
