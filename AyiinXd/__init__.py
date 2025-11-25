@@ -19,7 +19,7 @@ from math import ceil
 from pathlib import Path
 
 from platform import python_version
-from pytgcalls import GroupCallFactory
+#from pytgcalls import GroupCallFactory
 from git import Repo
 from telethon import Button, __version__ as vsc
 from telethon.sync import custom
@@ -51,14 +51,14 @@ try:
         auto_reconnect=True,
         connection_retries=None,
     )
-    setattr(
-        Ayiin,
-        "calls",
-        GroupCallFactory(
-            Ayiin,
-            GroupCallFactory.MTPROTO_CLIENT_TYPE.TELETHON,
-        ).get_group_call()
-    )
+#    setattr(
+#        Ayiin,
+#        "calls",
+#        GroupCallFactory(
+#            Ayiin,
+#            GroupCallFactory.MTPROTO_CLIENT_TYPE.TELETHON,
+#        ).get_group_call()
+#    )
 except Exception as e:
     print(f"STRING_SESSION - {e}")
     sys.exit()
@@ -99,7 +99,7 @@ logging.basicConfig(
     level=logging.INFO,
 )
 logging.getLogger("asyncio").setLevel(logging.ERROR)
-logging.getLogger("pytgcalls").setLevel(logging.ERROR)
+#logging.getLogger("pytgcalls").setLevel(logging.ERROR)
 logging.getLogger("telethon.network.mtprotosender").setLevel(logging.ERROR)
 logging.getLogger("telethon.network.connection.connection").setLevel(logging.ERROR)
 
