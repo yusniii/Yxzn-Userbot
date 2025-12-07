@@ -1,5 +1,5 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs18
 
+FROM nikolaik/python-nodejs:python3.10-nodejs18
 
 RUN apt-get update && apt-get install -y \
     git ffmpeg gcc g++ wget curl build-essential \
@@ -13,8 +13,7 @@ WORKDIR /app
 
 RUN pip install --upgrade pip setuptools wheel
 
-
+COPY requirements.txt /app/
 RUN pip install -r requirements.txt --default-timeout=200
-
 
 CMD ["bash", "start"]

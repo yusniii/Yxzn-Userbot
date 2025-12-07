@@ -1,52 +1,22 @@
 {
-  "name": "⋆ 𝐘𝐗𝐙𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 ⋆",
-  "description": "[Yxzn-Userbot] Gunakan userbot dengan resiko mu sendiri",
+  "name": "YXZN-USERBOT",
+  "description": "[Yxzn-Userbot] Gunakan userbot dengan resiko sendiri",
   "logo": "https://telegra.ph/file/f9844a0575ae5a77fa1de.jpg",
-  "keywords": ["telegram", "userbot", "Yxzn-Userbot", "modular", "python"],
+  "keywords": ["telegram","userbot","python"],
   "repository": "https://github.com/yusniii/Yxzn-Userbot",
+
   "stack": "container",
+
   "env": {
-    "API_KEY": {
-      "description": "API ID dari https://my.telegram.org",
-      "required": true
-    },
-    "API_HASH": {
-      "description": "API Hash dari https://my.telegram.org",
-      "required": true
-    },
-    "STRING_SESSION": {
-      "description": "String session userbot",
-      "required": true
-    },
-    "HEROKU_APP_NAME": {
-      "description": "Nama app Heroku",
-      "required": true
-    },
-    "HEROKU_API_KEY": {
-      "description": "API key Heroku",
-      "required": true
-    },
-    "OPENAI_API_KEY": {
-      "description": "OpenAI API Key (opsional)",
-      "required": false
-    }
+    "API_KEY": {"description":"API ID dari https://my.telegram.org","required":true},
+    "API_HASH": {"description":"API Hash dari https://my.telegram.org","required":true},
+    "STRING_SESSION": {"description":"String session userbot","required":true},
+    "HEROKU_APP_NAME": {"description":"Nama app Heroku","required":true},
+    "HEROKU_API_KEY": {"description":"API key Heroku","required":true},
+    "OPENAI_API_KEY": {"description":"OpenAI API Key (opsional)","required":false}
   },
 
-  "addons": [
-    {
-      "plan": "heroku-postgresql:essential-0"
-    }
-  ],
-
-  "buildpacks": [
-    { "url": "heroku/python" },
-    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" }
-  ],
-
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  }
+  "addons":[
+    {"plan":"heroku-postgresql:essential-0"}
+  ]
 }
